@@ -2,7 +2,7 @@ from Cryptodome.Cipher import AES
 from base64 import b64encode, b64decode
 from Cryptodome.Util.Padding import pad, unpad
 from Cryptodome.Random import get_random_bytes
-from .utils import b64_to_random, random_to_b64
+from acrypt.utils import b64_to_random, random_to_b64
 
 
 class RandomCrypter:
